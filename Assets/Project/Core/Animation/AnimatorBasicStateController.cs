@@ -4,7 +4,7 @@ using JCI.Core.Animations;
 using RSG;
 using UnityEngine;
 
-namespace RK.Pets
+namespace JCI.Core.Animation
 {
     public class AnimatorBasicStateController : MonoBehaviour
     {
