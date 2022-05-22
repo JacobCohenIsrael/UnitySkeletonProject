@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace JCI.Core
+namespace JCI.Core.Events
 {
     public class PerformDestroy : MonoBehaviour
     {

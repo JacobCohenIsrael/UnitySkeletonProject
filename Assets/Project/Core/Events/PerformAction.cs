@@ -4,7 +4,7 @@ using JCI.Core.Events;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace JCI.Core
+namespace JCI.Core.Events
 {
     public class PerformAction : MonoBehaviour
     {

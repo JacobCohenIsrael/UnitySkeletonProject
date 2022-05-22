@@ -1,6 +1,4 @@
-using System;
-using JCI.Core;
-using JCI.Core.Animations;
+using JCI.Core.Inspector;
 using RSG;
 using UnityEngine;
 

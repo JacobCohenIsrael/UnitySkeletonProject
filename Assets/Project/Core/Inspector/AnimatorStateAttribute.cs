@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace JCI.Core
+namespace JCI.Core.Inspector
 {
     public class AnimatorStateAttribute : PropertyAttribute
     {
