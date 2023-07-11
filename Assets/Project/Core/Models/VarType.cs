@@ -1,4 +1,5 @@
 using System;
+using JCI.Attributes;
 using UnityEngine;
 
 namespace JCI.Core.Models
@@ -56,6 +57,7 @@ namespace JCI.Core.Models
 			Updated(value);
 		}
 
+		[Button("Notify")]
 		public void Notify()
 		{
 			Updated(value);
