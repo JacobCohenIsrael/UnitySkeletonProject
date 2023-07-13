@@ -4,7 +4,7 @@ using JCI.Core.Inspector;
 using UnityEngine;
 using UnityEditor;
 
-namespace RK.Core.Editor
+namespace JCI.Editor
 {
     [CustomPropertyDrawer(typeof(StringInList))]
     public class StringInListDrawer : PropertyDrawer
