@@ -1,12 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
+using JCI.Attributes;
 using UnityEngine;
 
 public class TestAnimationSequence : MonoBehaviour
 {
     [SerializeField] private Animator animator;
 
-    [SerializeField] private string verticalTrigger, horizontalTrigger, verticalStateEnd, horizontalStateEnd;
+    [SerializeField, AnimatorTrigger] private string verticalTrigger, horizontalTrigger;
+    [SerializeField, AnimatorState] private string verticalStateEnd, horizontalStateEnd;
 
     private void Start()
     {
